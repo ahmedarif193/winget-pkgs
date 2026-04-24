@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
 
 PackageIdentifier: ReactOS.RosBE
-PackageVersion: 1.0.0
+PackageVersion: 20260424
 PackageLocale: en-US
 Publisher: Ahmed Arif
 PublisherUrl: https://github.com/ahmedarif193
@@ -25,6 +25,7 @@ Description: |-
     - CMake                      3.31.6
     - Ninja                      1.12.1
     - WinFlexBison (Flex+Bison)  2.5.25    - Flex 2.6.4 + Bison 3.8.2
+    - QEMU (Windows bundle)      11.0.0    - qemu.weilnetz.de build 20260422
 
   `rosbe update` refreshes the toolchain bundle. `rosbe remove` removes
   the installed bundle and PATH entries.
